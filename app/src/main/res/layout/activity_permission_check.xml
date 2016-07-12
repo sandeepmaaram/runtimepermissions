@@ -11,17 +11,23 @@
     tools:context="com.anddev.runtimepermissions.activities.PermissionCheckActivity">
 
     <Button
+        android:id="@+id/btn_call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:text="Call" />
 
     <Button
+        android:id="@+id/btn_location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:text="Location" />
 
     <Button
+        android:id="@+id/btn_contacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:text="Contacts" />
 </LinearLayout>
